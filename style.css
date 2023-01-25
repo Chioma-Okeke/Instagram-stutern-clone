@@ -1,4 +1,7 @@
 /*general edit*/
+/* .margin-10px{
+    margin-bottom: 10px;
+} */
 .no-margin{
     margin: 0px;
 }
@@ -81,14 +84,83 @@ body{
     width: 430px;
     margin: 0px auto;
 }
-.posts-section div{
-    background-color: yellow;
-    margin: 20px auto;
-    height: 550px;
+.posts-section .post-container{
+    background-color: white;
+    margin-top: 20px;
+    height: 800px;
     width: 460px;
     /* position: fixed;
     left: 8%; */
     border-radius: 10px;
+}
+.post-title-tile{
+    background-color: white;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}.post-title-tile .option-button{
+    margin-left: 230px;
+}
+.post-title-tile .dot{
+    margin-bottom: 20px;
+    margin-right: 4px;
+    font-size: 30px;
+}
+.post-title-tile .timestamp{
+    font-size: 15px;
+    color: rgb(152,152,152);
+    font-weight: bold;
+}
+.post-title-tile .title-image img{
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    /* border-radius: 50%;
+    border: 3px solid;
+    border-image: linear-gradient(230deg, rgb(211,0,197), red, yellow) 1; */
+    background: linear-gradient(#fff, #fff) padding-box,      /*makes sure this background extends to the border line*/
+              linear-gradient(230deg, rgb(211,0,197), red, yellow) border-box;   /*makes sure the background extends to the outside part of the border*/
+    border: 3px solid transparent;
+    border-radius: 50%;
+}
+.posts-section .post-container .post-title-tile a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin: 0px 7px;
+}
+.post-title-tile img{
+    width: 15px;
+    height: 15px;
+}
+.posts-section .post-container .post-image img{
+    width: 460px;
+}
+.icon-section{
+    display: flex;
+}
+.icon-section img{
+    width: 20px;
+    height: 20px;
+}
+.comments{
+    display: flex;
+    justify-content: space-between;
+}
+.comment-section p{
+    margin: 5px 0px;
+}
+.comment-box{
+    border: none;
+    margin-left: -3px;
+}
+.smile{
+    width: 15px;
+    height: 15px;
+}
+.add-comment{
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -113,7 +185,7 @@ body{
     height: 10px;
 }
 .suggestions-section .suggested-users p{
-    
+
 }
 .suggested-users div a sup img{
     width: 15px;
@@ -150,17 +222,32 @@ body{
 .contents .stories{
     /* border: 1px solid rgb(196, 193, 193);
     background-color: white; */
-    padding: 18px 0px 0px 20px;
+    padding: 18px 0px 0px 0px;
     margin-top: 20px;
     height: 100px;
     width: 437px;
+    display: flex;
     position: relative;
-    left: 3%;
+    left: 1%;
     border-radius: 10px;
 }
+.contents .stories div{
+    margin-right: 15px;
+}
+.contents .stories div p{
+    font-size: 13px;
+    text-align: center;
+}
 .contents .stories div img{
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
+    padding: 2px;
+    /* border-radius: 50%;
+    border: 3px solid;
+    border-image: linear-gradient(230deg, rgb(211,0,197), red, yellow) 1; */
+    background: linear-gradient(#fff, #fff) padding-box,      /*makes sure this background extends to the border line*/
+              linear-gradient(230deg, rgb(211,0,197), red, yellow) border-box;   /*makes sure the background extends to the outside part of the border*/
+    border: 3px solid transparent;
     border-radius: 50%;
 }
 
