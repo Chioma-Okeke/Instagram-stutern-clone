@@ -153,7 +153,10 @@ body{
     height: 20px;
 }
 .icon-2{
-    margin: 0px 10px;
+    margin: 0px 15px;
+}
+.icon-4{
+ margin-left: 350px;   
 }
 .comments{
     display: flex;
@@ -242,6 +245,7 @@ body{
 }
 .suggestions-section ul li{
     margin-right: 30px;
+    color: rgb(173,173,173);
 }
 .suggestions-section ul li span{
     position: relative;
