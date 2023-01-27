@@ -5,8 +5,18 @@
 .no-margin{
     margin: 0px;
 }
+.post-container .comment-section .ash-font{
+    color: rgb(189,156,142);
+    margin: 10px 0px 5px 0px;
+}
+.margin-top{
+    margin-top: 18px;
+}
 .no-bullet{
     list-style-type: none
+}
+.bold-text{
+    font-weight: bold;
 }
 .font-17{
     font-size: 17px;
@@ -33,15 +43,12 @@ body{
 
 /* navigation-setion */
 .navigation-tab{
-    padding: 35px 0px 35px 25px;
-}
-.navigation-tab nav div{
-    padding: 12px 0px;
+    padding: 35px 0px 35px 20px;
 }
 .logo img{
     width: 105px;
     height: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .navigation-tab{
     border-right: 1px solid rgb(196, 193, 193);
@@ -56,6 +63,8 @@ body{
 .navigation-tab nav .home-link{
     display: flex;
     height: 30px;
+    padding: 12px;
+    margin-left: -8px;
 }
 
 /*feeds*/
@@ -143,9 +152,15 @@ body{
     width: 20px;
     height: 20px;
 }
+.icon-2{
+    margin: 0px 10px;
+}
 .comments{
     display: flex;
     justify-content: space-between;
+}
+.comment-section{
+    font-size: 15px;
 }
 .comment-section p{
     margin: 5px 0px;
@@ -153,10 +168,12 @@ body{
 .comment-box{
     border: none;
     margin-left: -3px;
+    margin-top: 5px;
 }
 .smile{
     width: 15px;
     height: 15px;
+    margin-top: 5px;
 }
 .add-comment{
     display: flex;
@@ -170,22 +187,49 @@ body{
 }
 .main-body .feeds .suggestions .suggestions-section{
     width: 270px;
-    margin: 0px auto;
+    margin: 50px 0px 0px 100px;
+    font-size: 13px;
 }
 .suggestions-section .suggested-users{
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }.suggested-users img{
     width: 34px;
     height: 35px;
     border-radius: 50%;
 }
 .suggestions-section .suggested-users div{
-    margin: 0px 30px 0px 15px;
+    margin: 0px 30px 0px -30px;
     height: 10px;
 }
+.suggestions-section .suggested-users .personal-username{
+    margin-left: -20px;
+    margin-top: 20px;
+}
+.suggestions-section .suggested-users .personal-profile{
+    width: 70px;
+    height: 70px;
+    margin-left: -10px;
+}
+.suggestions-section .suggested-users .suggestion-1{
+    margin-left: -45px;
+}
+.suggestions-section .suggested-users .suggestion-4{
+    margin-left: -60px;
+}
+.suggestions-section .suggested-users .suggestion-5{
+    margin-left: -70px;
+}
 .suggestions-section .suggested-users p{
-
+    color: rgb(2,150,246);
+}
+.suggestions-section .suggested-users .black-font{
+    color: black;
+}
+.suggestions-section .suggested-users .center-item{
+    margin: auto 0px;
+    color: black;
+    text-decoration: none;
 }
 .suggested-users div a sup img{
     width: 15px;
@@ -255,5 +299,5 @@ body{
 /*hover effects*/
 .navigation-tab nav .home-link:hover{
     border-radius: 50px;
-    background-color: rgb(242, 243, 243);
+    background-color: rgb(248, 245, 245);
 }
